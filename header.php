@@ -6,8 +6,8 @@
 			<li><a href="cloud.php">Cloud Solutions</a></li>
 			<li><a href="partners.php">Partners</a></li>
 			<li><a href="about.php">About Us</a></li>
-			<li><a href="testimonials.php">Testimonials</a></li>
-			<li>
+			<li><a href="testimonials.php">Testimonials</a></li>	
+		<li>
 				<a class="icon fa-angle-down">Get in touch</a>
 				<ul>
 					<li><a href="index.php">Contact Us</a></li>
