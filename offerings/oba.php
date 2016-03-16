@@ -37,6 +37,9 @@ CSA Consultants can respond to client demand for quick, cost-effective deploymen
 
 		</p>
 	</div>
+</div>
+<div class="row">
+	<div class="12u">
 	<div class="table-wrapper 12u">
 		<table>
 			<thead>
@@ -73,6 +76,10 @@ CSA Consultants can respond to client demand for quick, cost-effective deploymen
 			</tbody>
 		</table>
 	</div>
+	</div>
+</div>
+<div class="row">
+	<div class="12u">
 	
 	<?php include "logos.php" ?>
 
@@ -80,6 +87,7 @@ CSA Consultants can respond to client demand for quick, cost-effective deploymen
 	<ul class="actions fit small">
 		<li><a href="offerings.php" class="button special">Back</a></li>
 	</ul>
+	</div>
 	</div>
 	
 </div>
