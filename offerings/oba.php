@@ -1,7 +1,7 @@
 
 <h3>CSA Consultants and Oracle Business Accelerator.</h3>
 <p>The Oracle Business Accelerator programme harnesses CSA Consultants’ experience in implementing Enterprise Resource Planning (ERP) solutions within the Indian market to provide customers with the functionality, security and future growth associated with an enterprise strength solution for a fraction of the traditional cost.
-
+</p><p>
 CSA Consultants can respond to client demand for quick, cost-effective deployments that offer the right mix of industry functionality and best-practices.
 </p>
 <div class="row">
@@ -32,7 +32,7 @@ CSA Consultants can respond to client demand for quick, cost-effective deploymen
 
 			 <li>Focuses on needs of mid-sized and rapidly expanding organisations.</li>
 		</ul>
-
+</p><p>
 		By reducing the effort, time and cost of implementations and by focusing on the specific needs of clients, we can implement a high-quality, client focussed, enterprise level solution that provides our clients with a competitive advantage in an increasingly competitive market, irrespective of the clients size or industry sector.
 
 		</p>
@@ -84,8 +84,8 @@ CSA Consultants can respond to client demand for quick, cost-effective deploymen
 	<?php include "logos.php" ?>
 
 	<div class="3u" style="float:right;">
-	<ul class="actions fit small">
-		<li><a href="offerings.php" class="button special">Back</a></li>
+	<ul class="actions fit small" >
+		<li style="float:right;"><a href="offerings.php" class="button special">Back</a></li>
 	</ul>
 	</div>
 	</div>
