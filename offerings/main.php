@@ -8,16 +8,6 @@
 		<p>The days of flying an entire team of business consultants to a client site, incurring high costs of travel, and viewing problems with a local perspective are over. We realized that clients are exhausted by this primitive consultancy model. We have developed a fresh outlook on consulting based on a simple idea: A blended offering of high quality business consulting onsite with impeccable technology implementation offsite.</p>
 	</div>
 	<div class="12u">
-		<h3>Our Objective</h3>
-		<p>The quality of our project delivery is due to the high level of competence and talent that form our multidisciplinary teams- Finance, Logistic, HR, Production-Process & Discreet, and Database Technology and backed by solid after sales support. Because of the experience and professionalism of our consultants, and that of our associates and partners, CSA is recognized in many areas where specific expertise is required.
-		Our fundamental values such as respect for the customer, team spirit and high standards constitute the foundation of reliability that customers have come to expect from CSA. In short, we understand technology from business perspective.</p>
-	</div>
-	<div class="12u">
-		<h3>Our Objective</h3>
-		<p>The quality of our project delivery is due to the high level of competence and talent that form our multidisciplinary teams- Finance, Logistic, HR, Production-Process & Discreet, and Database Technology and backed by solid after sales support. Because of the experience and professionalism of our consultants, and that of our associates and partners, CSA is recognized in many areas where specific expertise is required.
-		Our fundamental values such as respect for the customer, team spirit and high standards constitute the foundation of reliability that customers have come to expect from CSA. In short, we understand technology from business perspective.</p>
-	</div>
-	<div class="12u">
 		<h3>Enterprise & Financial Solutions</h3>
 		<ul class="nounderline"> 
 			<li><a href="offerings.php?content=oba">Oracle e-Business suite</a></li>
@@ -29,8 +19,11 @@
 		</ul>
 	</div>
 	<div class="12u">
-		<h3>Our Objective</h3>
-		<p>The quality of our project delivery is due to the high level of competence and talent that form our multidisciplinary teams- Finance, Logistic, HR, Production-Process & Discreet, and Database Technology and backed by solid after sales support. Because of the experience and professionalism of our consultants, and that of our associates and partners, CSA is recognized in many areas where specific expertise is required.
-		Our fundamental values such as respect for the customer, team spirit and high standards constitute the foundation of reliability that customers have come to expect from CSA. In short, we understand technology from business perspective.</p>
+		<h3>Support</h3>
+		<p>Support & AMC Services.</p>
+	</div>
+	<div class="12u">
+		<h3>Training Services</h3>
+		<p>The concept of Enterprise Resource Planning (ERP) is one that is swiftly engulfing every sector of corporate functioning today. In Eastern India a very few number of organizations exist which provide to the mass a complete training on the concept and details of ERP. We, being associated with the leading names of the ERP developing fraternity, provide to our clients a complete training procedure on the concepts and detailed components involved in an ERP solution.</p>
 	</div>
 </div>

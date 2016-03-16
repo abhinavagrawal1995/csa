@@ -74,4 +74,6 @@ CSA Consultants can respond to client demand for quick, cost-effective deploymen
 		</table>
 	</div>
 	
+	<?php include "logos.php" ?>
+	
 </div>
