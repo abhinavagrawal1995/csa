@@ -67,7 +67,7 @@
 					</section>
 
 					<div class="row">
-						<div class="6u 12u(narrower)" style="width:60%;" style="width:70%;">
+						<div class="6u 12u(narrower)">
 
 							<section class="box special" >
 							<h3>Why CSA Consultants</h3>
@@ -80,7 +80,7 @@
 							</section>
 
 						</div>
-						<div class="6u 12u(narrower)" style="width:40%;">
+						<div class="6u 12u(narrower)">
 
 							<section class="box special">
 								<?php include('news.php');?>
