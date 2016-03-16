@@ -20,22 +20,24 @@
 
 			<!-- Main -->
 				<section id="main" class="container">
-					<header>
-						<h2>Generic</h2>
-						<p>A generic page for every non-generic situation.</p>
-					</header>
+					<?php include "imghead.php" ?>
 					<div class="box">
-						<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
-						<h3>This is a subheading</h3>
-						<p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.</p>
+						<h3>About Us</h3>
+						<p>CSA Consultants Pvt. Ltd. is among Eastern India’s leading Information Technology consultancy, services, and business solution providers. Formed by a group of Chartered Accountants with over 20 years Industry relevant experience in Business IT system consulting. The company is specializing in Enterprise Resource Planning – ROI Assessment/Blueprint/Product and Vendor Selection and Project Management services apart from sales and implementation , Development, Rollout and Support for Oracle and SAP Product Suites.
+
+CSA proudly remains owned and managed by its original founders. Our flexible organizational structure gives our consultants, managers and collaborators all the autonomy and leeway they need to establish a solid, intimate business relationship with every customer they serve. When the company found its enterprise customers struggling to find the optimum IT backbone to support the solution, CSA put in its effort and build its team and partnerships in place in just about 3 months to help them get end to end optimal solution, This example shows the way we work – Listen, innovate, mobilize and Deliver with accountability.
+
+Whether its role is prime contractor, technical specialist or coach, CSA always provides a personal touch... because every customer is unique.</p>
 						<div class="row">
 							<div class="6u 12u(mobilep)">
-								<h3>And now a subheading</h3>
-								<p>Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae lorem ipsum adipiscing ac. Vivamus ornare laoreet odio vis praesent.</p>
+								<h3>Our Team</h3>
+								<p>CSA has always chosen to partner with the best of the best IT products in the company with the aim to add constant innovative value to them by its unique methodology. Due to such path breaking ways it has within no time become Top performing partner to those organizations seeking an experienced information technology (IT) integrator in a variety of industry sectors. Customers benefit from this combination of technical and business experience in the form of solutions that provide quick and recognizable value to IT spends.</p>
 							</div>
 							<div class="6u 12u(mobilep)">
-								<h3>And another subheading</h3>
-								<p>Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae lorem ipsum adipiscing ac. Vivamus ornare laoreet odio vis praesent.</p>
+								<h3>Our Objective</h3>
+								<p>The quality of our project delivery is due to the high level of competence and talent that form our multidisciplinary teams- Finance, Logistic, HR, Production-Process & Discreet, and Database Technology and backed by solid after sales support. Because of the experience and professionalism of our consultants, and that of our associates and partners, CSA is recognized in many areas where specific expertise is required.
+
+Our fundamental values such as respect for the customer, team spirit and high standards constitute the foundation of reliability that customers have come to expect from CSA. In short, we understand technology from business perspective.</p>
 							</div>
 						</div>
 					</div>
