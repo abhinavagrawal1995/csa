@@ -33,10 +33,10 @@
 								<div class="table-wrapper">
 									<table class="offers">
 										<tr>
-											<td class="4u">
+											<td class="4u 12u(narrower)">
 												<span class="image fit"><img src="images/ora.jpg" alt="" /></span>
 											</td>
-											<td class="8u">
+											<td class="8u 12u(narrower)">
 												<h3><a href="orapractices.php"><span style="color:red;">ORACLE</span> PARTNER</a></h3>
 												<p>
 													Certified Partner , 1 of only 7 in India. CSA Consultants Oracle practice enables customers to achieve cost-effective solutions on their investments in Oracle products through well experienced industry implementation expertise and innovative delivery model.
