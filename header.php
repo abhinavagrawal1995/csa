@@ -3,7 +3,7 @@
 	<nav id="nav">
 		<ul>
 			<li><a href="offerings.php">Offerings</a></li>
-			<li><a href="cloud.php">Cloud Solutions</a></li>
+			<li><a href="offerings.php?content=cloud">Cloud Solutions</a></li>
 			<li><a href="partners.php">Partners</a></li>
 			<li><a href="about.php">About Us</a></li>
 			<li><a href="testimonials.php">Testimonials</a></li>	

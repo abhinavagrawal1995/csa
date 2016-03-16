@@ -3765,3 +3765,6 @@
 .nounderline > li > a{
 			border-bottom: none;
 		}
+.offers > tbody > tr > td{
+	vertical-align: middle;
+}
