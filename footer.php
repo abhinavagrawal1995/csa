@@ -9,6 +9,8 @@
 						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; CSAConsultants. All rights reserved.</li><li>Website by: <a href="http://abhinavagrawal.in">Abhinav Agrawal</a></li>
+						<li>&copy; CSAConsultants. All rights reserved.</li>
+						<li>An ISO 27001 and 9001:2008 Certified Company   |  info@csaconsultants.in</li>
+						<li>Website by: <a href="http://abhinavagrawal.in">Abhinav Agrawal</a></li>
 					</ul>
 				</footer>

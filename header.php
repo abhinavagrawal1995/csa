@@ -2,25 +2,20 @@
 	<h1><a href="index.php">CSAconsultants Pvt. Ltd.</a></h1>
 	<nav id="nav">
 		<ul>
-			<li><a href="index.php">Home</a></li>
+			
 			<li>
-				<a href="#" class="icon fa-angle-down">Layouts</a>
+				<a class="icon fa-angle-down" href="index.php">About</a>
 				<ul>
-					<li><a href="generic.php">Generic</a></li>
-					<li><a href="contact.php">Contact</a></li>
-					<li><a href="elements.php">Elements</a></li>
-					<li>
-						<a href="#">Submenu</a>
-						<ul>
-							<li><a href="#">Option One</a></li>
-							<li><a href="#">Option Two</a></li>
-							<li><a href="#">Option Three</a></li>
-							<li><a href="#">Option Four</a></li>
-						</ul>
-					</li>
+					<li><a href="index.php">About Us</a></li>
+					<li><a href="index.php">Partners</a></li>					
+					<li><a href="index.php">Testimonials</a></li>
 				</ul>
 			</li>
-			<li><a href="#" class="button">Sign Up</a></li>
+			<li><a href="index.php">Offerings</a></li>
+			<li><a href="index.php">Cloud Solutions</a></li>
+			<li><a href="index.php">Contact Us</a></li>
+			
+			<li><a href="https://www.linkedin.com/company/csa-consultants-pvt.-ltd." class="button">Follow us</a><li>
 		</ul>
 	</nav>
 </header>
