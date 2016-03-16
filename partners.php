@@ -29,7 +29,7 @@
 								<h3>Partner Products</h3>
 								<p>CSA Consultants wide repertoire of product offerings spans from Enterprise Applications to Business Productivity Solutions. Our rich experience in developing indigenous products in alliance with our distribution of world-class, best-of-breed products puts us in a position ideal to find optimal solutions for you.</p>
 							</div>
-							<div class="12u">
+							<div class="12u" >
 								<div class="table-wrapper">
 									<table class="offers">
 										<tr>
