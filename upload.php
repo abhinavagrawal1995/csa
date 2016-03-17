@@ -2,14 +2,14 @@
 	$path="."
 	$filename="README.md"
    	$file = $path . "/" . $filename;
-    $file_size = filesize($file);
-    $handle = fopen($file, "r");
-    $content = fread($handle, $file_size);
-    fclose($handle);
-    $content = chunk_split(base64_encode($content));
+    // $file_size = filesize($file);
+    // $handle = fopen($file, "r");
+    // $content = fread($handle, $file_size);
+    // fclose($handle);
+    // $content = chunk_split(base64_encode($content));
 
-    // a random hash will be necessary to send mixed content
-    $separator = md5(time());
+    // // a random hash will be necessary to send mixed content
+    // $separator = md5(time());
 
     // carriage return type (we use a PHP end of line constant)
     $eol = PHP_EOL;
