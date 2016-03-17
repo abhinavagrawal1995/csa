@@ -159,14 +159,7 @@
 <li> Consolidation and virtualization – thanks to the wealth of experience we’ve gained around the performance issues that cause VM implementations to fail, we can readily identify problems within virtualized environments to ensure failure is never an option.</li>
 								</ul>
 							</div>							
-						</div>
- Robust and reliable solutions – For developing a new server, storage infrastructure or simply migrating data
- 24x7 global management by experienced, certified Oracle specialists, enabling you to focus on your core business
- Round-the-clock access to Oracle experts (skilled in databases, applications and infrastructure) reducing the need to recruit, train and retain costly personnel
- Integrated service desk ensuring accurate SLA reporting and call-handling
- A defined ‘event correlation and response’ strategy facilitating faster responses to incidents
- Seamless integration provided by our technical application developers and solution architects who can identify application limitations and develop appropriate middleware solutions
- Consolidation and virtualization – thanks to the wealth of experience we’ve gained around the performance issues that cause VM implementations to fail, we can readily identify problems within virtualized environments to ensure failure is never an option.					
+						</div>		
 					<?php include "offerings/logos.php"; ?>
 					</div>
 				</section>

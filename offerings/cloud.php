@@ -1,6 +1,6 @@
 
 <h3>TCS iON Small and Medium Business solutions</h3>
-<p>IT-as-a-Service is an innovative service model delivering a bouquet of products and services on-demand. That means it allows you to choose what is relevant to your present needs from an integrated suite of hardware, network, and software solutions provisioned by iON and its partner network. <a href="https://www.tcsion.com/dotcom/TCSSMB/">Read More.</a></p>
+<p>IT-as-a-Service is an innovative service model delivering a bouquet of products and services on-demand. That means it allows you to choose what is relevant to your present needs from an integrated suite of hardware, network, and software solutions provisioned by iON and its partner network. <a href="tcs.php">Read More.</a></p>
 <div class="row">
 	<div class="12u">
 		<h3>Oracle RightNow CX Cloud Service</h3>
@@ -27,7 +27,7 @@
 
 	<div class="3u" style="float:right;">
 	<ul class="actions fit small" >
-		<li style="float:right;"><a href="offerings.php" class="button special">Back</a></li>
+		<li style="float:right;"><a href="offerings.php" class="button special">Other Offerings</a></li>
 	</ul>
 	</div>
 	</div>

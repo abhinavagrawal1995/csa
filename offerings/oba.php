@@ -85,7 +85,7 @@ CSA Consultants can respond to client demand for quick, cost-effective deploymen
 
 	<div class="3u" style="float:right;">
 	<ul class="actions fit small" >
-		<li style="float:right;"><a href="offerings.php" class="button special">Back</a></li>
+		<li style="float:right;"><a href="offerings.php" class="button special">Other Offerings</a></li>
 	</ul>
 	</div>
 	</div>
