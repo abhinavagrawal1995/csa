@@ -36,10 +36,10 @@
     $headers .= "--" . $separator . "--";
 
     //SEND Mail
-     if (mail("abhinavagrawal1995@gmail.com, "Subject1", "", $headers)) {
-        echo "mail send ... OK"; // or use booleans here
-      } else {
-        echo "mail send ... ERROR!";
-      }
+     // if (mail("abhinavagrawal1995@gmail.com, "Subject1", "", $headers)) {
+     //    echo "mail send ... OK"; // or use booleans here
+     //  } else {
+     //    echo "mail send ... ERROR!";
+     //  }
 
 ?>
