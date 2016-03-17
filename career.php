@@ -41,15 +41,15 @@
 								 
 								In case of any queries, <a href="contactus.php">Contact Us</a><br>
 								<br>
-								<form method="post" action="upload.php">
+								<form method="post" action="upload.php" enctype="multipart/form-data">
 									<div class="row uniform 50%">
 									<div class="4u 12u(mobilep)">To apply, submit your resume here :</div>
 										<div class="4u 6u(mobilep)">
-											<input type="file" name="file" id="file" placeholder="File" />
+											<input type="file" name="fileToUpload" id="fileToUpload" />
 										</div>
 										<div class="4u 6u(mobilep)">
 											<ul class="actions">
-												<li><input type="submit" value="Send" /></li>
+												<li><input type="submit" value="Send" name="submit" /></li>
 											</ul>
 										</div>
 									</div>
