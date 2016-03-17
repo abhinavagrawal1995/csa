@@ -10,7 +10,7 @@
 		<li>
 			<a class="icon fa-angle-down">Get in touch</a>
 			<ul>
-				<li><a href="index.php">Contact Us</a></li>
+				<li><a href="contactus.php">Contact Us</a></li>
 				<li><a href="career.php">Career</a></li>
 				<li><a href="support.php">Support</a></li>
 				<li><a href="enquiry.php">Enquiry</a></li>

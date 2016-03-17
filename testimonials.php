@@ -31,10 +31,10 @@
 								<h3>Case Studies</h3>
 								<div class="box alt 12u">
 									<div class="row no-collapse 50% uniform">
-										<div class="3u 12u(narrower)" style="margin:auto;">
+										<div class="3u 12u(mobilep)" style="margin:auto;">
 											<a target="_new" href="pdfs/mallcom-india-1-ebs-case-study-335320.pdf"><span class="image fit"><img src="pdfs/mil.jpg" alt="" />Mallcom India Limited</span></a>
 										</div>
-										<div class="3u 12u(narrower)" style="margin:auto;">
+										<div class="3u 12u(mobilep)" style="margin:auto;">
 											<a target="_new" href="#"><span class="image fit"><img src="pdfs/cc.jpg" alt="" />Hindustan Copper Limited</span></a>
 										</div>									
 									</div>	
@@ -44,20 +44,20 @@
 								<h3>Credential Certificates</h3>
 								<div class="box alt 12u">
 									<div class="row no-collapse 80% uniform">
-										<div class="2u 12u(narrower)">
+										<div class="2u 12u(mobilep)">
 											<a target="_new" href="pdfs/HCL_Support_completion_certificate_2012.pdf"><span class="image fit"><img src="pdfs/hcl.jpg" alt="" />
 											Hindustan Copper Limited(2012)</span></a>
 										</div>
-										<div class="2u 12u(narrower)">
+										<div class="2u 12u(mobilep)">
 											<a target="_new" href="pdfs/Uranium_Corporation_of_India_Limited_2012.pdf"><span class="image fit"><img src="pdfs/cc.jpg" alt="" />Uranium Corporation of India Ltd. (2012)</span></a>
 										</div>
-										<div class="2u 12u(narrower)">
+										<div class="2u 12u(mobilep)">
 											<a target="_new" href="pdfs/BCL%20Go-Live%20Certficate.pdf"><span class="image fit"><img src="pdfs/uci.jpg" alt="" />Burnpur Cement Ltd. (2013)</span></a>
 										</div>
-										<div class="3u 12u(narrower)">
+										<div class="3u 12u(mobilep)">
 											<a target="_new" href="pdfs/Mallcom_(India)_Limited.pdf"><span class="image fit"><img src="pdfs/bcl.jpg" alt="" />Mallcom (India) Ltd.</span></a>
 										</div>
-										<div class="3u 12u(narrower)">
+										<div class="3u 12u(mobilep)">
 											<a target="_new" href="pdfs/Primavera%20-%20Maco%20Certificate.pdf"><span class="image fit"><img src="pdfs/mil1.jpg" alt="" />MACO CORPORATION (INDIA) PVT. LTD.</span></a>
 										</div>								
 									</div>	
