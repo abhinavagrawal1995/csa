@@ -1,9 +1,10 @@
 <?php 
-	
-	$filename = "README.md";
-	$path = "./";
+	session_start();
+
+	$filename = $_SESSION['filename'];
+	$path = "./uploads/";
 	$mailto = "abhinavagrawal1995@gmail.com";
-	$subject = "This is a mail with attachment.";
+	$subject = "CV";
 	$message = "CV sent via csaconsultants.in";
 	$from_name="CSA cv";
 	$from_mail="info@csaconsultants.in";
