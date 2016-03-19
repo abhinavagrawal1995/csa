@@ -1,41 +1,35 @@
 <?php
+session_start();
+$_SESSION['msg']="";
+$_SESSION['flag']=false;
  
 if(isset($_POST['submit'])) 
 {
   // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "abhinavagrawal1995@gmail";
+    $email_to = "abhinavagrawal1995@gmail.com";
  
-    $email_subject = "Your email subject line";
+    $email_subject = "Enquiry via csaconsultants.in";
  
     function died($error) {
         // your error code can go here
  
-        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
- 
-        echo "These errors appear below.<br /><br />";
- 
-        echo $error."<br /><br />";
- 
-        echo "Please go back and fix these errors.<br /><br />";
- 
-        die();
- 
+        $_SESSION['msg'].="Your enquiry could not be submitted due to the following error(s):<br>";
+        $_SESSION['msg'].=$error."<br /><br />"; 
+        header('Location:enquiry.php?sent=0');  
     }
  
      
  
     // validation expected data exists
  
-    if(!isset($_POST['name']) ||
- 
-        !isset($_POST['email']) ||
- 
-        !isset($_POST['subject']) ||
- 
+    if(!isset($_POST['name']) || 
+        !isset($_POST['email']) || 
+        !isset($_POST['subject']) || 
         !isset($_POST['message'])) {
  
-        $flag=0;       
+        $flag=0;  
+        died("Some fields were left blank.");     
  
     }
  
@@ -58,6 +52,7 @@ if(isset($_POST['submit']))
   if(!preg_match($email_exp,$email_from)) {
  
     $err .= 'The Email Address you entered does not appear to be valid.<br />';
+    died($err);
  
   }
  
@@ -66,12 +61,14 @@ if(isset($_POST['submit']))
   if(!preg_match($string_exp,$name)) {
  
     $err .= 'The Name you entered does not appear to be valid.<br />';
+    died($err);
  
   }
  
   if(strlen($message) < 2) {
  
     $err .= 'The Message you entered do not appear to be valid.<br />';
+    died($err);
  
   }
  
@@ -101,7 +98,7 @@ if(isset($_POST['submit']))
  
     $email_message .= "Subject: ".clean_string($subject)."\n";
  
-    $email_message .= "Message: ".clean_string($Message)."\n";
+    $email_message .= "Message: ".clean_string($message)."\n";
  
      
  
@@ -115,22 +112,14 @@ $headers = 'From: '.$email_from."\r\n".
  
 'X-Mailer: PHP/' . phpversion();
  
-@mail($email_to, $email_subject, $email_message, $headers);  
- 
-?>
- 
- 
- 
-<!-- include your own success html here -->
- 
- 
- 
-Thank you for contacting us. We will be in touch with you very soon.
- 
- 
- 
-<?php
- 
+if(mail($email_to, $email_subject, $email_message, $headers))
+{
+  $_SESSION['flag']=true; 
+  $_SESSION['msg']="Your enquiry has been submitted. We will Get back to you shortly.";
+  header('Location:enquiry.php?sent=1'); 
+}
+else
+    died("Sorry, Something went wrong. Try again later.");
 }
  
 ?>

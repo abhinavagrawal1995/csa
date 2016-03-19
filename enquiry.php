@@ -24,8 +24,10 @@
 					<div class="row">
 						<div class="12u" style="margin-bottom: 30px;">
 							<?php 
-								if(isset($_GET['sent']))
-									echo "<center><code>Your enquiry has been submitted. We will Get back to you shortly.</code></center>";
+									session_start();
+									if(isset($_SESSION['msg']))
+										echo "<center><code>".$_SESSION['msg']."</code></center>";
+									session_destroy();
 							?>
 						</div>						
 					</div>
@@ -52,7 +54,7 @@
 							<div class="row uniform">
 								<div class="12u">
 									<ul class="actions align-center">
-										<li><input type="submit" value="Send Message" /></li>
+										<li><input type="submit" value="Send Message" name="submit"/></li>
 									</ul>
 								</div>
 							</div>
