@@ -39,8 +39,6 @@
     }
     $_SESSION['msg']="<center><code>".$msg."</code></center>";
     header('Location:career.php');
-      
-
 
 // // send email
 // if(mail("abhinavagrawal1995@gmail.com","My subject","test"))
