@@ -1,40 +1,70 @@
 <?php
+session_start();
+$_SESSION['msg']="";
+$_SESSION['flag']=false;
+$_SESSION['filename']="";
 $target_dir = "./uploads/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-$uploadOk = 1;
-$imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
+
+$file = $_FILES["fileToUpload"]["name"];
+$array = explode('.', $file);
+$fileName=$array[0];
+$fileExt=$array[1];
+$newfile=$fileName."_".date("d-m-Y")."_".time().".".$fileExt;
+
+$err="";
+// var_dump($newfile);
+// var_dump($_FILES);
+$target_file = $target_dir . $newfile;
+
+$uploadOk = 0;
+$fileType = pathinfo($target_file,PATHINFO_EXTENSION);
 // Check if image file is a actual image or fake image
-if(isset($_POST["submit"])) {
-    $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
-    if($check !== false) {
-        echo "File is an image - " . $check["mime"] . ".";
-        $uploadOk = 1;
-    } else {
-        echo "File is not an image.";
+if(isset($_POST["submit"])) 
+{
+    // Allow certain file formats
+    $whitelist = array("pdf","doc","docx");
+    foreach ($whitelist as $item) 
+    {
+     if ($item==$fileType) 
+            $uploadOk = 1;
+    }
+    if ($uploadOk==0) {
+            $err="Only doc, docx, or pdf allowed.";
+            $uploadOk = 0;
+        }
+
+    // Check file size
+    if ($_FILES["fileToUpload"]["size"] > 3000000) {
+        $err="Your file is too large. Max limit: 3 Mb.";
         $uploadOk = 0;
     }
-}
-// Check file size
-if ($_FILES["fileToUpload"]["size"] > 500000) {
-    echo "Sorry, your file is too large.";
-    $uploadOk = 0;
-}
-// Allow certain file formats
-if($imageFileType != "pdf" && $imageFileType != "doc" && $imageFileType != "docx"
-&& $imageFileType != "png" ) {
-    echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
-    $uploadOk = 0;
-}
-// Check if $uploadOk is set to 0 by an error
-if ($uploadOk == 0) {
-    echo "Sorry, your file was not uploaded.";
-// if everything is ok, try to upload file
-} else {
-    if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-        echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
-    } else {
-        echo "Sorry, there was an error uploading your file.*****";
-        echo $target_file;
+
+    // Check if $uploadOk is set to 0 by an error
+    if ($uploadOk == 0) {
+        $msg="Sorry, your file was not uploaded.";
+    // if everything is ok, try to upload file
     }
+    else 
+    {
+        if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) 
+        {
+            $msg = "Your CV has been uploaded. We will get back to you shortly.";
+            $_SESSION['flag']=true;
+            $_SESSION['filename']=$newfile;
+        } 
+        else {
+            $msg="Sorry, your file was not uploaded.";
+            $err="Please send a mail to info@csaconsultants.in.";
+        }
+    }
+    
+    $msg=$msg." ".$err;
+    $_SESSION['msg']="<center><code>".$msg."</code></center>";
+    if($_SESSION['flag'])
+    	header('Location:send.php');
+    else
+    	header('Location:career.php?sent=0');
+    //var_dump($_SESSION);
 }
 ?>

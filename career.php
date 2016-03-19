@@ -21,6 +21,11 @@
 			<!-- Main -->
 				<section id="main" class="container">
 					<?php include "imghead.php" ?>
+					<div class="row">
+						<div class="12u" style="margin-bottom: 30px;">
+							<?php session_start(); echo $_SESSION['msg']; session_destroy();?>
+						</div>						
+					</div>
 					<div class="box">
 						<h3>Career</h3>
 						<p>
@@ -54,6 +59,7 @@
 										</div>
 									</div>
 								</form>
+								
 							</div>
 							
 						</div>
@@ -75,3 +81,4 @@
 
 	</body>
 </html>
+
