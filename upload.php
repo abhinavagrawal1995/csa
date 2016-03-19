@@ -49,7 +49,6 @@ if(isset($_POST["submit"]))
     {
         if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) 
         {
-            $msg = "Your CV has been uploaded. We will get back to you shortly.";
             $_SESSION['flag']=true;
             $_SESSION['filename']=$newfile;
         } 
@@ -64,7 +63,7 @@ if(isset($_POST["submit"]))
     if($_SESSION['flag'])
     	header('Location:send.php');
     else
-    	header('Location:career.php?sent=0');
+    	header('Location:career.php');
     //var_dump($_SESSION);
 }
 ?>

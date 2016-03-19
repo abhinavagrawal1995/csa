@@ -31,10 +31,14 @@
     $header .= $content."\r\n\r\n";
     $header .= "--".$uid."--";
     if (mail($mailto, $subject, "", $header)) {
-        echo "mail send ... OK"; // or use booleans here
+        $msg = "Your CV has been received. We will get back to you shortly.";
+        $_SESSION['flag']=true;
     } else {
-        echo "mail send ... ERROR!";
+        $msg="Sorry, your file was not uploaded. Please send a mail to info@csaconsultants.in.";
+        $_SESSION['flag']=false;
     }
+    $_SESSION['msg']="<center><code>".$msg."</code></center>";
+    header('Location:career.php');
       
 
 
