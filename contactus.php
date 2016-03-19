@@ -64,6 +64,7 @@
 								</div>
 							</div>
 							<hr>
+							To submit an enquiry, <a href="enquiry.php">click here</a>
 							</div>						
 						</div>
 					</div>
