@@ -3,7 +3,7 @@
 
 	$filename = $_SESSION['filename'];
 	$path = "./uploads/";
-	$mailto = "abhinavagrawal1995@gmail.com";
+	$mailto = "info@csaconsultants.in";
 	$subject = "CV";
 	$message = "CV sent via csaconsultants.in";
 	$from_name="CSA cv";

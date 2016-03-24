@@ -8,7 +8,7 @@ if(isset($_POST['submit']))
 {
           // EDIT THE 2 LINES BELOW AS REQUIRED
          
-            $email_to = "abhinavagrawal1995@gmail.com";
+            $email_to = "info@csaconsultants.in";
          
             $email_subject = "Enquiry via csaconsultants.in";
          

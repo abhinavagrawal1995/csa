@@ -42,32 +42,39 @@
 					<section class="box special features">
 						<div class="features-row">
 							<section>
-								<span class="icon major fa-bolt accent2"></span>
+								<span class="icon major fa-comments accent2"></span>
 								<h3>Consulting</h3>
 								<p>CSA Consultants Pvt. Ltd. is among Eastern India’s leading Information Technology consultancy, services, and business solution providers. Formed by a group of experts with over 15 years in the IT industries with the best of Brands...</p>
 							</section>
 							<section>
-								<span class="icon major fa-area-chart accent3"></span>
+								<span class="icon major fa-cogs accent3"></span>
 								<h3>SUPPORT</h3>
 								<p>The quality of our project delivery is due to the high level of competence and talent that form our multidisciplinary teams- Finance, Logistic, HR, Production-Process & Discreet, and Database Technology and backed by solid after sales support....</p>
 							</section>
 						</div>
 						<div class="features-row">
 							<section>
-								<span class="icon major fa-cloud accent4"></span>
+								<span class="icon major fa-info accent4"></span>
 								<h3>TRAINING</h3>
 								<p>We look for people with energy, talent, and creative drive, balanced with a commitment to precision and quality. CSA Consultants offers nationally-competitive salaries, benefits, and a working atmosphere that empowers...</p>
 							</section>
 							<section>
-								<span class="icon major fa-lock accent5"></span>
-								<h3>Enim phasellus</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+								<span class="icon major fa-newspaper-o accent5"></span>
+								<h3>News and events</h3>
+								<p>CSA Features in SAP S/4 HANA at The Lalit Great Eastern<br>
+
+								CSA Features in SAP BI Analytics at Kenilworth, Kolkata<br>
+
+								CSA Features in Oracle World Press Release<br>
+
+								Oracle Primavera Seminar
+								 (Coming Soon) </p>
 							</section>
 						</div>
 					</section>
 
 					<div class="row">
-						<div class="6u 12u(narrower)">
+						<div class="12u">
 
 							<section class="box special" >
 							<h3>Why CSA Consultants</h3>
@@ -80,19 +87,19 @@
 							</section>
 
 						</div>
-						<div class="6u 12u(narrower)">
+						<!-- <div class="6u 12u(narrower)">
 
 							<section class="box special">
 								<?php include('news.php');?>
 							</section>
 
-						</div>
+						</div> -->
 					</div>
 
 				</section>
 
 			<!-- CTA -->
-				<section id="cta">
+				<!-- <section id="cta">
 
 					<h2>Sign up for beta access</h2>
 					<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
@@ -108,7 +115,7 @@
 						</div>
 					</form>
 
-				</section>
+				</section> -->
 
 			<?php include 'footer.php'; ?>
 
