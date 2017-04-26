@@ -65,17 +65,6 @@
 								</div>
 								<div class="box alt">
 										<div class="row no-collapse 50% uniform">
-											<div class="4u 12u(narrower)"><span class="image fit"><img src="images/ion_logo.jpg" alt="" /></span></div>
-											<div class="8u 12u(narrower)">
-												<h3><a href="tcs.php"><span style="color:red;">TCS iON Small and Medium Business solutions</span></a></h3>
-												<p>
-													IT-as-a-Service is an innovative service model delivering a bouquet of products and services on-demand. That means it allows you to choose what is relevant to your present needs from an integrated suite of hardware, network, and software solutions provisioned by iON and its partner network.
-												</p>
-											</div>
-										</div>
-								</div>
-								<div class="box alt">
-										<div class="row no-collapse 50% uniform">
 											<div class="4u 12u(narrower)"><span class="image fit"><img src="images/udyoglogo.jpg" alt="" /></span></div>
 											<div class="8u 12u(narrower)">
 												<h3><a href="offerings.php?content=udyog"><span style="color:red;">UDYOG SOFTWARE</span></a></h3>
