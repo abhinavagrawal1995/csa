@@ -39,6 +39,9 @@
 								case 'cloud':
 									include "offerings/cloud.php";
 									break;
+								case 'gst':
+									include "offerings/gst.php";
+									break;
 								case 'op':
 									include "offerings/op.php";
 									break;

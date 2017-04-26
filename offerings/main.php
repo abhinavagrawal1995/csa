@@ -13,7 +13,7 @@
 			<li><a href="offerings.php?content=oba">Oracle e-Business suite</a></li>
 			<li><a href="offerings.php?content=sap">SAP Business Suite Modules</a></li>
 			<li><a href="offerings.php?content=sapbo">SAP BusinessObjects BI, Edge Edition & Lumira</a></li>
-			<li><a href="offerings.php?content=cloud">Cloud Solutions</a></li>
+			<li><a href="offerings.php?content=gst">GST Solution</a></li>
 			<li><a href="offerings.php?content=op">Oracle's Primavera Project Management Suite</a></li>
 			<li><a href="offerings.php?content=udyog">Udyog</a></li>
 		</ul>

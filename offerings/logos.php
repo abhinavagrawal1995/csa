@@ -5,7 +5,7 @@
 		<div class="2u 4u(mobilep)" style="margin:auto;"><span class="image fit"><img src="images/sap.png" alt="" /></span></div>
 	
 		<div class="3u 6u(mobilep)" style="margin:auto;"><span class="image fit"><img src="images/oracle3.jpg" alt="" /></span></div>
-		<div class="2u 6u(mobilep)" style="margin:auto;"><span class="image fit"><img src="images/ion_logo.jpg" alt="" /></span></div>
+		<div class="2u 6u(mobilep)" style="margin:auto;"><span class="image fit"><img src="images/microsoft.jpg" alt="" /></span></div>
 	</div>	
 </div>
 <hr>
