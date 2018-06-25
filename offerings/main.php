@@ -11,7 +11,6 @@
 		<h3>Enterprise & Financial Solutions</h3>
 		<ul class="nounderline"> 
 			<li><a href="offerings.php?content=oba">Oracle e-Business suite</a></li>
-			<li><a href="offerings.php?content=sap">SAP Business Suite Modules</a></li>
 			<li><a href="offerings.php?content=sapbo">SAP BusinessObjects BI, Edge Edition & Lumira</a></li>
 			<li><a href="offerings.php?content=gst">GST Solution</a></li>
 			<li><a href="offerings.php?content=op">Oracle's Primavera Project Management Suite</a></li>
@@ -20,7 +19,7 @@
 	</div>
 	<div class="12u">
 		<h3>Support</h3>
-		<p>Support & AMC Services.</p>
+		<p>Need based support/Long term technical maintenance of all above solutions.</p>
 	</div>
 	<div class="12u">
 		<h3>Training Services</h3>

@@ -4,7 +4,7 @@
 		<ul>
 			<li><a href="offerings.php">Offerings</a></li>
 			<li><a href="offerings.php?content=gst">GST Solution</a></li>
-			<li><a href="partners.php">Partners</a></li>
+			<!-- <li><a href="partners.php">Partners</a></li> -->
 			<li><a href="about.php">About Us</a></li>
 			<li><a href="testimonials.php">Testimonials</a></li>	
 		<li>

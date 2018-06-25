@@ -31,10 +31,10 @@
 					<section class="box special">
 						<header class="major">
 							<h2>About Us</h2>
-							<p>CSA Consultants Pvt. Ltd. is among Eastern India’s leading Information Technology consultancy, services, and business solution providers. Formed by a group of Chartered Accountants with over 20 years Industry relevant experience in Business IT system consulting. The company is specializing in Enterprise Resource Planning – ROI Assessment/Blueprint/Product and Vendor Selection and Project Management services apart from sales and implementation , Development, Rollout and Support for Oracle and SAP Product Suites. </p>
+							<p>CSA Consultants Pvt. Ltd. is among Eastern India’s leading Information Technology consultancy, services, and business solution providers. Formed by a group of Chartered Accountants with over 25 years Industry relevant experience in Business IT system consulting. The company is specializing in Enterprise Resource Planning – ROI Assessment/Blueprint/Product and Vendor Selection and Project Management services apart from sales and implementation , Development, Rollout and Support for Oracle and other top rated ERP Products for SME. </p>
 						</header>
 						<ul class="actions">
-									<li><a href="#" class="button alt">Learn More</a></li>
+									<li><a href="about.php" class="button alt">Learn More</a></li>
 								</ul>
 						<?php include('slide.php'); ?>
 					</section>

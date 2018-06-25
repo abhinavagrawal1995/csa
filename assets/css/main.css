@@ -3770,3 +3770,7 @@
 .offers > tbody > tr > td{
 	vertical-align: middle;
 }
+
+.bx-prev,.bx-next {
+border-bottom: none;
+}
